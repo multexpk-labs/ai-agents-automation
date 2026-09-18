@@ -1,0 +1,16 @@
+{
+  "name": "example_lookup",
+  "description": "Read-only example tool contract.",
+  "input_schema": {
+    "type": "object",
+    "properties": {
+      "query": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "query"
+    ]
+  },
+  "permission": "read-only"
+}
